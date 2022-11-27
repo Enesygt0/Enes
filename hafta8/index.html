@@ -1,0 +1,79 @@
+<html>
+    <link rel="stylesheet" href="style.css">
+    <head>
+        <style>
+            *{ color: blue;}
+            #idYesil{
+                color: green;
+            }
+            .classKirmizi{
+                color: red;
+            }
+            div {
+                background-color: rgb(0, 128, 0);
+            }
+            div.birinci{
+                opacity: 0.1;
+            }
+            div.ikinci{
+                opacity: 0.3;
+            }
+            div.ucuncu{
+                opacity: 0.6;
+            }
+
+            body{
+                background-image:url(sand.jpg) ;
+            }
+
+            #Bold{
+                font-size: large;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Burası h1 Başlığıdır.Herhangi bir ıd ve Class atanmamıştır.
+            Genel seçiciden (*) etkilenmemektedir.
+        </h1>
+        <p> Burası p paragrafıdır. Herhangi bir ıd ve Class atanmamıştır.
+            Genel seçiciden (*) etkilenmemektedir.
+        </p>
+        <p id="idYesil">Burası p paragrafıdır. ıd atanmıştır. (#)seçiciden etkilenmektedir.</p>
+        <p class="classKirmizi">Burası p paragrafıdır. Class atanmıştır.
+            (.) seçiciden etkilenmektedir.
+        </p>
+        <h1 style="background-color:rgb(81, 204, 157);">renk</h1>
+        <h1 style="background-color:rgb(255, 0, 0);">renk</h1>
+        <h1 style="background-color:rgb(0, 255, 0);">renk</h1>
+        <h1 style="background-color:rgb(0, 0, 255);">renk</h1>
+
+        <h2>Arka planı Şeffaf Yapma</h2>
+
+        <div class="birinci">
+            <h1>opacity 0.1</h1>
+            </div>
+
+            <div class="ikinci">
+                <h1>opacity 0.3</h1>
+            </div>
+
+            <div class="ucuncu">
+                <h1>opacity 0.6</h1>
+            </div>
+
+            <div>
+                <h1>opacity 1 (Varsayılan)</h1>
+            </div>
+        <h1>Merhaba Dünya !</h1>
+
+        <p id="bold">Bu sayfada arkaplan resmi kullanılmıştır. 
+            Küçük bir resim olmasına rağmen tekrar ettiği için
+            tüm sayfayı resim kaplamaktadır.Tekrar eden desene bakılırsa bu anlaşılabilir.
+            Arkaplan resimleri ön plandaki yazıyı hiç bir şekilde
+            etkilemez.
+        </p>
+
+    </body>
+
+</html>
